@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(50, 1, 47);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+#logo{
+    background: url("./imagenes/LOGO\ PNG.png");
+    width: 334px;
+    height: 110px;
+    text-indent: -1000px;
+    overflow: hidden;
+    
+}
+
+#logo a{
+    display: block;
+    width: 80px;
+    height: 102px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    color: rgb(226, 223, 208);
+    font-size: 1em;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav ul li a:hover , footer a:hover{
+    background-color: rgb(249, 115, 0);
+}
+
+#inicio{
+    background: linear-gradient(-60deg, rgba(2,0,36,0) 0%, rgba(50,1,47,0.8) 98%) , url("./imagenes/salon\ foto.jpg")no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 50vh;
+    padding: 2em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+section h2{
+    margin: auto;
+    font-size: 3em;
+    color:rgb(226, 223, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#Servicios{
+    text-align: center;
+    padding: 1em;
+}
+
+#Servicios div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+#Servicios h2{
+    color:rgb(249, 115, 0);
+    font-size: 3em;
+    margin: 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resaltar {
+background-color:rgb(50, 1, 47) ;
+}
+
+#Servicios figure{
+    border: 2px solid rgb(81, 0, 83);
+    padding: 1em;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px 2px rgb(39, 0, 36);
+    flex-basis: 100%;
+}
+
+#Servicios img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+#Servicios h3{
+    margin: 1em 0;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#espacio {
+padding: 30px;
+display: block;
+
+}
+
+#Nosotros{
+    background:linear-gradient(-0deg, rgba(2,0,36,0) 0%, rgba(249,115,0,1) 98%) , url("./imagenes/grupo\ de\ work.jpg")no-repeat;
+    background-size: cover;
+    height: 50vh;
+    padding: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Nosotros h2{
+     font-size: 3em;
+    color:rgb(226, 223, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*seccion de PARRAFOS*/
+section{
+    text-align: center;
+    padding: 2em;
+}
+
+section h1{
+    font-size:2em;
+    margin: 10px;
+    color: rgb(249, 115, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resaltar {
+    background-color:rgb(50, 1, 47) ;
+    }
+
+section p{
+    display: block;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+
+/*seccion de clientes amigos*/
+#reseñas{
+    background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(50,1,47,1) 98%) , url("./imagenes/tablet\ cliente.jpg")no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+#clientes{
+    
+}
+
+#clientes h1{
+    font-size: 3em;
+    padding: 20px;
+    color:rgb(226, 223, 208);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    padding: 1em;
+    width: 100%;
+    display: inline-block;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 2px rgb(104, 41, 16);
+}
+
+article p{
+    margin: 1em 0;
+}
+
+
+#uno{
+    background-color: rgb(141, 121, 85);
+    padding: 20px;
+}
+
+#dos{
+    background-color:rgb(218, 139, 70);
+    padding: 20px;
+}
+
+#tres{
+    background-color:rgb(249, 115, 0);
+}
+
+/*Seccion footer*/
+footer{
+    
+    background-color:rgb(50, 1, 47);
+    padding: 2em;
+    color: rgb(226, 223, 208);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+}
+footer ul{
+    display: flex;
+    gap: 10px;
+}
+
+footer li{
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+footer a{
+    color: rgb(226, 223, 208);
+}
+
+footer h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 1em 0;
+    color: rgb(249, 115, 0);
+}
+
+
+
+@media screen and (min-width:800px){
+   header{
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+         }
+
+    #inicio{
+    background: linear-gradient(-60deg, rgba(2,0,36,0) 0%, rgba(50,1,47,0.8) 98%) , url("./imagenes/pexels-cadomaestro-1170412.jpg")no-repeat;
+    background-size: cover;
+        }
+  
+    #Servicios div{
+        flex-direction: row;
+        flex-wrap: wrap;
+     
+
+    }
+   
+    #Servicios figure{
+        flex-basis: 40%;
+        flex-grow: 1;
+    }
+    
+    #Nosotros{
+        background:linear-gradient(-0deg, rgba(2,0,36,0) 0%, rgba(249,115,0,1) 98%) , url("./imagenes/tablet.jpg")no-repeat;
+        background-size: cover;
+        
+    }
+    
+    #Nosotros h2{
+         font-size: 3em;
+        color:rgb(226, 223, 208);
+        margin: 10px;
+    }
+
+    article{
+        width: 90%;
+        margin: auto;
+    }
+
+    #uno , #dos{
+        width: 50%;
+        display: inline-block;
+    }
+
+    footer{
+        flex-direction:row;
+       justify-content: space-between;
+    }    
+
+}   
+
+
+
+@media screen and (min-width:1200px){
+    #Servicios div{
+        flex-wrap: nowrap;
+       
+    }
+   
+    #Servicios figure{
+        flex-basis: 40%;
+        flex-grow: 1;
+    }
+  
+    #Nosotros{
+        background:linear-gradient(-0deg, rgba(2,0,36,0) 0%, rgba(249,115,0,1) 98%) , url("./imagenes/grande.jpg")no-repeat;
+        background-size: cover;
+        margin: auto;
+    }
+    section , article{
+        min-width: 1400px;
+        max-width: 2000px;
+        margin: auto;
+    }
+    #uno , #dos , #tres{
+        width: 33.33%;
+    }
+    }
